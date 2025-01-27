@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'Display';
+    src: url('./data/digital_display_tfb.ttf');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./data/GothamLight.ttf');
+}
+
+

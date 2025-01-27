@@ -1,0 +1,304 @@
+
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+
+
+
+.bg-visor {
+    background-image: url(data/ats_back.png);
+    background-size: 117% 100%;
+    background-position: center;
+}
+
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: none;
+}
+
+
+.iconMargin {
+    margin-left:4px;
+}
+.map-container{
+  width: 100%;
+  height: 50vh;
+}
+
+
+.rdt_TableHeader {
+  background-color: #5c5c5c !important;
+  padding: 10px;
+  color: rgb(255, 255, 255) !important  ;
+  
+}
+
+
+.rdt_Pagination {
+  background-color: #5c5c5c !important;
+  color:rgb(0, 0, 0)!important;
+  font-size: large !important;
+  padding: 4px;
+}
+
+.rdt_TableHead{
+  background-color: #ffffff !important;
+  padding: 4px;
+  
+}
+.rdt_TableHeadRow{
+  background-color: #1d1d1d !important;
+  padding: 4px;
+}
+.rdt_TableRow:nth-child(even) {
+  background-color: #CCC;
+  font-size: medium;
+  text-align: center;
+  
+
+}
+
+.rdt_TableRow:nth-child(odd) {
+  background-color: #FFF;
+  text-align: center;
+  font-size: medium;
+}
+
+.search_input {
+  padding: 2px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  border-style: dashed;
+  color:black;
+  margin-top: 5px;
+}
+
+.rdt_TableCol_Sortable {
+  color: rgb(255, 255, 255); 
+
+}
+
+/* Estilos para el botón de exportar a CSV */
+.export-btn {
+  background-color: #aeb2b4;
+  color: #FFFFFF;
+  padding: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.button-on {
+    background-color: #00ab55;
+}
+
+.button-off {
+    background-color: #d8d9da;
+}
+
+
+.custom-tooltip {
+    background-color: rgba(39, 39, 42, 1);
+    color: #CCC;
+    border: 1px solid rgba(0,0,0,1);
+    padding: 10px;
+}
+
+
+
+/* Contenedor velocimetro pagina principal */
+
+.gauge-container > .gauge .dial {
+    stroke: #00ab55;
+    opacity: 0.8;
+    transform: scale(0.5);
+    transform: translate3d(10%,20%,0) scale(0.8);
+    stroke-width: 7;
+}
+
+
+.gauge-container > .gauge .value {
+    stroke: green;
+    stroke-dasharray: none;
+    transform: scale(0.5);
+    transform: translate3d(10%,20%,0) scale(0.8);
+    stroke-width: 6;
+}
+
+.gauge-container > .gauge .value-text {
+    fill: rgba(0,0,0,1);
+    display: inline-block;
+
+}
+
+.emu-img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+  }
+
+ 
+ 
+  
+
+  
+  .bg-green-200 td {
+    color: green;
+  }
+  
+  
+  .network-container {
+    height: 200px;
+  }
+  
+  .info-window {
+    background-color: #f0f0f0;
+    width: 50%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px #0000001a;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+  }
+
+  .attribute-row {
+   
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+  
+  .attribute-label {
+    margin-right: 5px;
+    font-size: x-large;
+
+    
+  }
+  
+
+  .attribute-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .button-row {
+    margin-top: 20px;
+  }
+  .input-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .save-button,
+  .cancel-button,
+  .edit-button {
+    margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  }
+  
+  /* Save button */
+.save-button {
+  background-color: #4caf50;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Cancel button */
+.cancel-button {
+  background-color: #f44336;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Edit button */
+.edit-button {
+  background-color: #007bff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+  .clear-all-button {
+    background-color: #007bff;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .clear-field-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    margin-left: 5px; /* Add some space between the input and the X button */
+  }
+  .clear-field-button:hover {
+  color: #555;
+}
+
+  .custom-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #007bff;
+    font-family: Gotham;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .delete-button {
+    padding: 10px 20px;
+    margin-top: 3%;
+    margin-left: 20px;
+    background-color: #ff0000;
+    font-family: Gotham;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
